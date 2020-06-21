@@ -1,0 +1,50 @@
+/*Selector {
+    Property: value;
+}*/
+* {
+    text-align: right;
+}
+body{
+    background-color: url(download(1).jpg);
+}
+h2 + p {
+    color: #998F3A;
+    text-align: center;
+    border: 5px solid blue;
+    cursor: pointer;
+
+}
+P{
+    color: pink
+}
+p{
+line-height: 20px;
+font-style: italic;
+font-weight: bold;
+font-size: 100%;
+font-family: "Times New Roman", Georgia;
+}
+img {
+    float: right;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+li{
+    list-style: none;
+    display: inline-block
+}
+.webtext:last-child {
+    border: 5px dashed orange;
+
+}
+.active{
+    color: red;
+}
+#div1{
+    background: rgba(0, 0, 255, 0.2)
+}
+#div1{
+    background: rgba(255, 0, 0, 0.2);
+}

@@ -1,0 +1,26 @@
+CSS cheat sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://CSS-tricks.com/almanac/
+
+Cascading that the order of CSS rules matter.
+
+
+.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+:important (not recommended)
+
+What selectors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
